@@ -3,107 +3,137 @@
 <head>
     <meta charset="utf-8">
     <script type="text/javascript" src="js/lightsout.js"></script>
+    <link rel="stylesheet" href="css/lightsout.css">
 </head>
 <body>
     <div style="float: left; text-align: center" id="wrapper">
-        <p style="display: inline-block; font-size: small; margin-bottom: 0" id="time">
-        00.00
-        <p style="display: inline-block; font-size: small; margin-bottom: 0">sec</p>
-        <table border=1>
-            <tr>
-                <td>
-                    <input type="checkbox" value="on" class="light">
-                </td>
-                <td>
-                    <input type="checkbox" value="on" class="light">
-                </td>
-                <td>
-                    <input type="checkbox" value="on" class="light" checked="checked">
-                </td>
-                <td>
-                    <input type="checkbox" value="on" class="light">
-                </td>
-                <td>
-                    <input type="checkbox" value="on" class="light">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <input type="checkbox" value="on" class="light">
-                </td>
-                <td>
-                    <input type="checkbox" value="on" class="light">
-                </td>
-                <td>
-                    <input type="checkbox" value="on" class="light" checked="checked">
-                </td>
-                <td>
-                    <input type="checkbox" value="on" class="light">
-                </td>
-                <td>
-                    <input type="checkbox" value="on" class="light">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <input type="checkbox" value="on" class="light" checked="checked">
-                </td>
-                <td>
-                    <input type="checkbox" value="on" class="light" checked="checked">
-                </td>
-                <td>
-                    <input type="checkbox" value="on" class="light">
-                </td>
-                <td>
-                    <input type="checkbox" value="on" class="light" checked="checked">
-                </td>
-                <td>
-                    <input type="checkbox" value="on" class="light" checked="checked">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <input type="checkbox" value="on" class="light">
-                </td>
-                <td>
-                    <input type="checkbox" value="on" class="light">
-                </td>
-                <td>
-                    <input type="checkbox" value="on" class="light" checked="checked">
-                </td>
-                <td>
-                    <input type="checkbox" value="on" class="light">
-                </td>
-                <td>
-                    <input type="checkbox" value="on" class="light">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <input type="checkbox" value="on" class="light">
-                </td>
-                <td>
-                    <input type="checkbox" value="on" class="light">
-                </td>
-                <td>
-                    <input type="checkbox" value="on" class="light" checked="checked">
-                </td>
-                <td>
-                    <input type="checkbox" value="on" class="light">
-                </td>
-                <td>
-                    <input type="checkbox" value="on" class="light">
-                </td>
-            </tr>
-        </table>
-
+        <h1>ライツアウト</h1>
+        <div class="timer">
+          <p id="time">
+          00.00
+          <p>sec</p>
+        </div>
+        <div class="btn_wrap">
+          <table>
+              <tr>
+                  <td>
+                      <input type="checkbox" value="on" id="light1" class="light">
+                      <label for="light1"></label>
+                  </td>
+                  <td>
+                      <input type="checkbox" value="on" id="light2" class="light">
+                      <label for="light2"></label>
+                  </td>
+                  <td>
+                      <input type="checkbox" value="on" id="light3" class="light" checked="checked">
+                      <label for="light3"></label>
+                  </td>
+                  <td>
+                      <input type="checkbox" value="on" id="light4" class="light">
+                      <label for="light4"></label>
+                  </td>
+                  <td>
+                      <input type="checkbox" value="on" id="light5" class="light">
+                      <label for="light5"></label>
+                  </td>
+              </tr>
+              <tr>
+                  <td>
+                      <input type="checkbox" value="on" id="light6" class="light">
+                      <label for="light6"></label>
+                  </td>
+                  <td>
+                      <input type="checkbox" value="on" id="light7" class="light">
+                      <label for="light7"></label>
+                  </td>
+                  <td>
+                      <input type="checkbox" value="on" class="light" id="light8" checked="checked">
+                      <label for="light8"></label>
+                  </td>
+                  <td>
+                      <input type="checkbox" value="on" id="light9" class="light">
+                      <label for="light9"></label>
+                  </td>
+                  <td>
+                      <input type="checkbox" value="on" id="light10" class="light">
+                      <label for="light10"></label>
+                  </td>
+              </tr>
+              <tr>
+                  <td>
+                      <input type="checkbox" value="on" id="light11" class="light" checked="checked">
+                      <label for="light11"></label>
+                  </td>
+                  <td>
+                      <input type="checkbox" value="on" id="light12" class="light" checked="checked">
+                      <label for="light12"></label>
+                  </td>
+                  <td>
+                      <input type="checkbox" value="on" id="light13" class="light">
+                      <label for="light13"></label>
+                  </td>
+                  <td>
+                      <input type="checkbox" value="on" id="light14" class="light" checked="checked">
+                      <label for="light14"></label>
+                  </td>
+                  <td>
+                      <input type="checkbox" value="on" id="light15" class="light" checked="checked">
+                      <label for="light15"></label>
+                  </td>
+              </tr>
+              <tr>
+                  <td>
+                      <input type="checkbox" value="on" id="light16" class="light">
+                      <label for="light16"></label>
+                  </td>
+                  <td>
+                      <input type="checkbox" value="on" id="light17" class="light">
+                      <label for="light17"></label>
+                  </td>
+                  <td>
+                      <input type="checkbox" value="on" id="light18" class="light" checked="checked">
+                      <label for="light18"></label>
+                  </td>
+                  <td>
+                      <input type="checkbox" value="on" id="light19" class="light">
+                      <label for="light19"></label>
+                  </td>
+                  <td>
+                      <input type="checkbox" value="on" id="light20" class="light">
+                      <label for="light20"></label>
+                  </td>
+              </tr>
+              <tr>
+                  <td>
+                      <input type="checkbox" value="on" id="light21" class="light">
+                      <label for="light21"></label>
+                  </td>
+                  <td>
+                      <input type="checkbox" value="on" id="light22" class="light">
+                      <label for="light22"></label>
+                  </td>
+                  <td>
+                      <input type="checkbox" value="on" class="light" id="light23" checked="checked">
+                      <label for="light23"></label>
+                  </td>
+                  <td>
+                      <input type="checkbox" value="on" id="light24" class="light">
+                      <label for="light24"></label>
+                  </td>
+                  <td>
+                      <input type="checkbox" value="on" id="light25" class="light">
+                      <label for="light25"></label>
+                  </td>
+              </tr>
+          </table>
+        </div>
         <button style="width:50%; float:left" id="toggle">Start</button>
         <button style="width:50%; float:right" id="shuffle">Shuffle</button>
     </div>
     <div style="float: left; ">
         <p id="indicate" style="margin:50px;"></p>
-    
-    
+
+
     </div>
 <!--    <div id="clear" ></div>-->
 </body>
