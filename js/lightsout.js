@@ -184,24 +184,32 @@ window.onload = function() {
 };
 
 function message_time(time){
-    var x;
     if (time < 1){
-        alert('もはや君は人類を超越している')
-        x = 'もはや君は人類を超越している';
+      swal.fire({
+      title: "すばらしい！！",
+      text: "もはや君は人類を超越している！！",
+      icon: "success",
+    　});
     }
     else if(time < 10){
-        alert('おめでとう。この街でNo1の実力だ！')
-        x = 'おめでとう。この街でNo1の実力だ！';
+      swal({
+      title: "おめでとう！！",
+      text: "この街でNo1の実力だ！",
+      icon: "success",
+    　});
     }
     else if(time < 20){
-        alert('おめでとう。この村でトップレベルだね！')
-        x = 'おめでとう。この村でトップレベルだね！';
+      swal({
+      title: "おめでとう！！",
+      text: "この村でトップレベルだね！",
+      icon: "success",
+    　});
     }
     else{
-        alert('おめでとう。')
-        x = 'おめでとう。';
+      swal({
+        title: "おめでとう！！",
+        text: "もう少し頑張ろうね！",
+        icon: "success",
+      });
     }
-    
-    indicate.textContent = x;
-    
 }
